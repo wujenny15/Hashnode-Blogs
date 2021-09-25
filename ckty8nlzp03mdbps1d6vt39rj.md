@@ -1,79 +1,164 @@
-## Cheatsheet: Command-Line Interface (CLI)
+## Linux Command Line Interface Cheatsheet
 
-## Introduction
-This is a simple guideline and takeaway for reference.
+## File and Directory Naming Convention
+* case sensitive
+* best is all lowercase
+* vi/ vim is a  default editing program
+:w -> Enter
 
-## List files Command
-Ctrl+C -> quit the program <br>
-ls -> listing the files ->  <br>
-ls -a (list all the files including hidden files)<br>
-ls -a -t (-t -> timestamp)<br>
-ls --all<br>
-cat -> take the files and concacencate -> cat 'fileName'<br>
-clear -> clear the output<br>
-echo -> <br>
+## General
+```bash
+# Clear the terminal screen
+clear
 
-## Shortcuts
-cat <br>
-history -> show the command history<br>
-press tab can auto complete<br>
+# Show the command history
+history
 
+# View the on-line reference manual pages for the commands/programs
+man grep
+man mkdir
+```
 
-## Directories
-pwd -> printing working directory<br>
-cd<br>
-ls -> listing all files<br>
-cd .. -> return to the parent directory<br>
+## Directory Operations
+```bash
+# Show working directory
+pwd
 
-## Relative Paths
-cat mall/../../menu.txt <br>
+# Make directory dir
+mkdir dir
 
-## Absolute Paths
-cd / -> '/' means the root directory<br>
-cd /home<br>
+# Change directory to dir
+cd dir
 
-## Directory Shortcuts
-./hello.sh -> '.' means the current directory<br>
-cd ~ -> return to the last directory<br>
+# Return to the parent directory
+cd ..
+
+# List all files
+ls
+
+# . means the current directory
+./hello.sh
+```
+
+## ls Options
+```bash
+# Show all files (including hidden)
+-a
+
+# Sort by last modified
+-t
+```
+
+## File Operations
+```bash
+# Create file1
+touch file
+
+# Concatenate files and output
+cat file1 file2
+
+# Copy file1 to file2
+cp file1 file2
+//'..' means the destination directory
+cp bird.txt .. 
+
+# Move file1 to file2
+move file1 to file2
+
+# Delete file1
+rm file1
+//rm -r mallDirectory -> '-r' means the directory
+# mkdir -p -> '-p' means the parent directory
+
+# View the content of the file
+cat file1.txt
+
+# Print text into file
+echo "This is a test" > test1.txt
+
+# View files
+# Press q to quit less and return to the command line
+less test1.txt
+more test1.txt
+```
+
+## Nano Shortcuts
+More nano info at: [ http:/­/ww­w.n­ano­-ed­ito­r.o­rg/­doc­s.php](http:/­/ww­w.n­ano­-ed­ito­r.o­rg/­doc­s.php) 
+```
+# Open file
+nano file.txt
+
+# Read file
+Ctrl+ R
+
+# Save file
+Ctrl+ O
+
+# Close file
+Ctrl + X
+
+```
+
+## Environment
+```bash
+# Global env config files
+/etc/profile
+/etc/bash.bashrc
+
+# User env config files
+~/.bashrc
+~/.zshrc
+
+# Show environment variables
+env 
+
+# Print defined env vars
+printenv
+
+# Make a VAR available to child process
+export VAR
+
+# Load a file into current script or shell session
+source ~/.zshrc
+```
+
+## Bash Shortcuts
+```bash
+# Quit the program
+Ctrl + C
+```
+
+## File path
+```BASH
+# Relative Paths
+cat mall/../../menu.txt 
+
+# Absolute Paths
+#  / means the root directory
+cd / 
+cd /home
+```
 
 ## Wildcard Expansion
-*.txt<br>
-echo re*.txt<br>
+```BASH
+*.txt
+echo re*.txt
+```
 
-## View Files by Less
-less a.txt<br>
-q -> quit<br>
-more a.txt<br>
+## Search Files
+```bash
+# Search for pattern in files
+# Search through files for lines that contain a certain string
+grep pattern files
 
-## Working with files
-* ls
-* copy <br>
-cp bird.txt pigeon.txt<br>
-cp bird.txt .. ->'..' means the destination directory <br>
+# Case insensitive search
+grep -i
 
-* move <br>
-mv bird.txt sparrow.txt<br>
+# Show matched part of file only
+grep -o
 
-* remove <br>
-rm -r mallDirectory -> '-r' means the directory<br>
+# Find files starting with name in dir
+find /dir/ -name name*
+```
 
-* make <br>
-mkdir -p -> '-p' means the parent directory<br>
 
-## Files and Directory Naming Convention
-case sensitive<br>
-best is all lowercase<br>
-
-## Manual 
-man<br>
-q -> quit<br>
-
-## Other
-find -> recursively search<br>
-grep 'Windows' -> search through files for lines that contain a certain string<br>
-vi -> default editing program<br>
-vim<br>
-:w -> Enter<br>
-
-nano -> available on Linux<br>
-nano file.txt<br>
