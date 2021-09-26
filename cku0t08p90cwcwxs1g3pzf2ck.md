@@ -16,3 +16,6 @@ I think Stephen's course has its own advantages. For example, he explained what 
 Bret Fisher talked more about docker commands and he also explained the differences between the old version and the new version of the commands. We can practice through assignments and think independently. However, he didn't explain concepts in detail when compared with Stephen's course. I think it would be good if we learn from them both. By the way, I think we can still use Docker Handbook as a reference and keep it handy but do not use it as the main source. 
 
 Please leave your comments below if you recommend some other courses or materials.
+
+### References
+https://unsplash.com/photos/2vPGGOU-wLA
