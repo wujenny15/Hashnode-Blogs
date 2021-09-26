@@ -157,3 +157,9 @@ git branch -D branch
 # Tag current commit
 git tag tag-name
 ```
+
+### Git reset origin to commit
+```bash
+git reset --hard cedc823
+git push --force origin master
+```
