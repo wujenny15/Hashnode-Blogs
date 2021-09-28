@@ -7,6 +7,18 @@ git config --global user.email "Your Email"
 git config --global user.password "Your password"
 git config --list
 ```
+### Push git clones repo to your GitHub
+```bash
+# Remove the remote repo assosication
+git remote -v
+git remote rm origin
+git remote -v
+
+git remote add origin your-github-url
+git remote -v
+git push --set-upstream origin main
+
+```
 
 ### Create Git Repository
 ```bash
