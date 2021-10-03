@@ -7,6 +7,7 @@ git config --global user.email "Your Email"
 git config --global user.password "Your password"
 git config --list
 ```
+
 ### Push git clones repo to your GitHub
 ```bash
 # Remove the remote repo assosication
@@ -18,6 +19,23 @@ git remote add origin your-github-url
 git remote -v
 git push --set-upstream origin main
 
+```
+### Git Squash Commits
+You have multiple commits on your branch bugfix and you want to squash all the commits into 1 commit, and then merge it with your master branch
+```bash
+# Swith to your master branch
+git checkout master
+
+# Squash all your commits into 1 commit
+git merge --squash bugfix
+
+git commit
+```
+
+### Git reset origin to commit
+```bash
+git reset --hard cedc823
+git push --force origin master
 ```
 
 ### Create Git Repository
@@ -170,8 +188,4 @@ git branch -D branch
 git tag tag-name
 ```
 
-### Git reset origin to commit
-```bash
-git reset --hard cedc823
-git push --force origin master
-```
+
