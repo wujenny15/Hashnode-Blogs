@@ -39,7 +39,7 @@ Azure Import/Export services is a secure and reliable to ship the on-premises da
 * Backup
 
 ---
-### Azure SQL Database, Azure SQL Managed Instance and SQL Server on Azure Virtual Machines 
+## Azure SQL Database, Azure SQL Managed Instance and SQL Server on Azure Virtual Machines 
 
 #### Compare Azure SQL Database, Azure SQL Managed Instance and SQL Server on Azure Virtual Machines
 * **Azure SQL Database**: PaaS, Supports active geo-replication, auto-scale, availability-zones, hyperscale architecture
@@ -55,7 +55,7 @@ Azure Import/Export services is a secure and reliable to ship the on-premises da
 
 --- 
 
-### Shared Acess Signature
+## Shared Acess Signature
 #### What is shared access signature ?
 Shared access signature (SAS) is a service of Azure Storage. It grants restricted access rights ro Azure storage resources.
 * Grant it to clients who should not be trusted with storage account key
@@ -65,7 +65,7 @@ Shared access signature (SAS) is a service of Azure Storage. It grants restricte
 
 ---
 
-### Azure AD Application Proxy 
+## Azure AD Application Proxy 
 #### What is Azure AD Application Proxy?
 Application Proxy is a feature of Azure AD that enables users to access on-premises web applications from a remote client. Application Proxy includes both the Application Proxy service which runs in the cloud, and the Application Proxy connector which runs on an on-premises server.
 
