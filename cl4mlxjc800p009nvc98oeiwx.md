@@ -52,7 +52,9 @@ Azure Import/Export services is a secure and reliable to ship the on-premises da
 
 * **Azure SQL Managed Instance**: Paas
 * **SQL Server on Azure Virtual Machines**: IaaS
+
 --- 
+
 ### Shared Acess Signature
 #### What is shared access signature ?
 Shared access signature (SAS) is a service of Azure Storage. It grants restricted access rights ro Azure storage resources.
@@ -60,6 +62,7 @@ Shared access signature (SAS) is a service of Azure Storage. It grants restricte
 * Delegate access to a shared access signature 
 * Grant access for a specified period of time
 * An account-level SAS can delegate access to multiple storage services(i.e., blob, file, queue, table)
+
 ---
 
 ### Azure AD Application Proxy 
