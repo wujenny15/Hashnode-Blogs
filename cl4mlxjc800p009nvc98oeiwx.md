@@ -38,6 +38,17 @@ Azure Import/Export services is a secure and reliable to ship the on-premises da
 * Content distribution
 * Backup
 
+#### Support storage types
+Azure Import/Export service supports the following storage types
+
+- Import supports Azure Blob storage and Azure File storage
+- Export supports Azure Blob storage
+
+Azure Import/Export service supports the following of storage accounts:
+
+- standard general purpose v2 storage accounts 
+- blob storage accounts
+- general purpose v1 storage accounts(both classic or azure resources manager deployments)
 ---
 ## Azure SQL Database, Azure SQL Managed Instance and SQL Server on Azure Virtual Machines 
 
