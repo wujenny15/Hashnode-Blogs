@@ -61,6 +61,11 @@ Azure Import/Export service supports the following of storage accounts:
    - Business Critical/Premium: Designed for OLTP application with high transaction rates and low latency I/O requirements.
    - Hyperscale: Designed for most business workloads. Hyperscale provides flexibility and high performance with independently scalable compute and storage resources.
 
+  ##### Resource Limits
+  Basic: 2GB
+  Standard: 1TB
+  Premium: 4 TB
+
 * **Azure SQL Managed Instance**: Paas
 * **SQL Server on Azure Virtual Machines**: IaaS
 
