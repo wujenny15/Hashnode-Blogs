@@ -127,6 +127,9 @@ If you have physical servers that you want to migrate Azure virtual machines. Az
 
 Managed identity helps Azure resources to authenticate to services that support Azure AD authentication. So instead of using azure application service principal id and service principal secret. So we assign the identity to the vm which is hosting the application, and then the app can azure storage account. You don’t need to provide any form of the secret.
 
+- system-assigned managed identity: System-assigned managed identity cannot be shared. It can only be associated with a single Azure resource.
+- user-assigned managed identity: User-assigned managed identity can be shared. The same user-assigned managed identity can be associated with more than one Azure resource.
+
 ---
 
 ## App Service Environment
