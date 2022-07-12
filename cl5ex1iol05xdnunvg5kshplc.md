@@ -177,4 +177,6 @@ Allows you to connect your on-premises networks to Microsoft cloud over a privat
 
 ## Azure Data Factory
 
-Azure Data Factory is Azure’s cloud ETL service for scale-out serverless data integration and data transformation. Azure Data Factory is a cloud based data integration service that orchestrates data movement & transformation between diverse data sources and cloud compute resources
+Azure Data Factory is Azure’s cloud ETL service for scale-out serverless data integration and data transformation. Azure Data Factory is a cloud-based data integration service that orchestrates data movement & transformation between diverse data sources and cloud compute resources
+
+Azure Data Factory is the platform that solves such data scenarios. It is the cloud-based ETL and data integration service that allows you to create data-driven workflows for orchestrating data movement and transforming data at scale. Using Azure Data Factory, you can create and schedule data-driven workflows (called pipelines) that can ingest data from disparate data stores. You can build complex ETL processes that transform data visually with data flows or by using compute services such as Azure HDInsight Hadoop, Azure Databricks, and Azure SQL Database.
