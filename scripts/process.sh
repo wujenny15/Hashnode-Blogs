@@ -2,5 +2,7 @@
 
 ls *.md > blogs.txt
 
-ls -t > latestblog.txt | cat latestblog.txt
+cat blog.txt
+
+
 
