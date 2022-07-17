@@ -37,7 +37,7 @@ Azure Event hub is a big data streaming platform. The service can receive and pr
 
 ---
 
-### Types of storage accounts
+## Types of storage accounts
 
 [storage account type](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts)
 
