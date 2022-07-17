@@ -8,7 +8,7 @@ Azure front door is a routing service. It is a global service which is available
 
 ### Compare Azure Front Door with Azure Traffic Manger and Azure APP gateway
 
-It has similar routing methods like Azure traffic manger and it has URL path based routing, in addtion to these two, it also has a SSL offloading.
+It has similar routing methods like Azure traffic manger and it has URL path based routing, in addtion to these two, it also has a SSL offloading. Azure Front Door supports rate limiting.  The Azure Web Application Firewall (WAF) rate limit rule for Azure Front Door controls the number of requests allowed from clients during a one-minute duration.
 
 ---
 ## Azure Traffic Manager
