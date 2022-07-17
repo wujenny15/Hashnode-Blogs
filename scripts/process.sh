@@ -2,7 +2,7 @@
 
 ls *.md > blogs.txt
 
-cat blog.txt
+cat blogs.txt
 
 
 
