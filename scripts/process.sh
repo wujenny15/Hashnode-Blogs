@@ -1,3 +1,6 @@
 #!/bin/bash
 
-ls *.md | head -n 1
+ls *.md > blogs.txt
+
+ls -t > latestblog.txt | cat latestblog.txt
+
