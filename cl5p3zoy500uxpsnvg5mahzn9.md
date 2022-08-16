@@ -1,4 +1,4 @@
-## AZ305 Study Summary Week4
+## AZ-305 Design Azure Infrastructure Solutions Study Summary
 
 ## Shared Access Signature (A service of Azure Storage)
 
