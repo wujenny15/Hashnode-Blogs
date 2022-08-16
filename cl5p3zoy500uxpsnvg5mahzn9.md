@@ -378,4 +378,13 @@ Azure AD Application Proxy provides secure remote access to on-premises web appl
 
 ---
 
+## What are five pillars of Azure well-architected framework pillars?
 
+- Cost optimization
+- Operational excellence
+- Performance efficiency
+- Security
+- Reliability
+
+> what's the difference between operational excellence and performance efficiency?
+Operation excellence focus on the speed of deployment, fasten develpment cycle with the help of DevOps. Monitoring tools to detect it earlier.
