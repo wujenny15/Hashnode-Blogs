@@ -260,3 +260,30 @@ Allows you to connect your on-premises networks to Microsoft cloud over a privat
 Azure Data Factory is Azure’s cloud ETL service for scale-out serverless data integration and data transformation. Azure Data Factory is a cloud-based data integration service that orchestrates data movement & transformation between diverse data sources and cloud compute resources
 
 Azure Data Factory is the platform that solves such data scenarios. It is the cloud-based ETL and data integration service that allows you to create data-driven workflows for orchestrating data movement and transforming data at scale. Using Azure Data Factory, you can create and schedule data-driven workflows (called pipelines) that can ingest data from disparate data stores. You can build complex ETL processes that transform data visually with data flows or by using compute services such as Azure HDInsight Hadoop, Azure Databricks, and Azure SQL Database.
+
+## Azure Time Series Data (TSI)
+
+### What is Azure Time Series Data?
+
+It is a fully managed PaaS solution built for IoT
+
+- ingest, process, store and query IoT scale data
+- Connect to a variety of data solutions using Azure Time Series Data’s flexible data platform
+- Use rich analytics APIs and UX for ad-hoc exploration and operational intelligence
+
+### Why we want to use Azure Time Series Data.
+
+- IoT data lacks structural consistency
+- IoT data needs contextualization
+- IoT data is characterized by infinite retention
+- IoT data is used with other data from
+
+---
+
+## Azure SQL Auditing
+
+### What is Azure SQL Auditing?
+
+Azure SQL Auditing tracks database events and writes them to an audit log in Azure storage account, log analytics workspace or event hub.
+
+When we enable the Azure SQL Auditing, we can save the audit log to the storage account which is located in the same location of the Azure SQL. The storage account which can store the audit log does not support premium storage currently.
